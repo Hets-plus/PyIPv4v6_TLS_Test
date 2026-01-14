@@ -1,0 +1,24 @@
+{
+  "mode": "both",
+  "server": {
+    "port": 13071,
+    "use_ipv6": false,
+    "ssl_version": "TLS 1.3",
+    "auth_mode": "单向认证",
+    "server_cert": "F:/hets/ssl-key/crt20251119/svr_v4/server.crt",
+    "server_key": "F:/hets/ssl-key/crt20251119/svr_v4/server.key",
+    "ca_cert": "F:/hets/ssl-key/crt20251119/ca.crt",
+    "auto_reply": true,
+    "data_mode": "透明"
+  },
+  "client": {
+    "host": "219.144.245.178",
+    "port": 13031,
+    "auth_mode": "单向",
+    "client_cert": "F:/hets/ssl-key/crt20251119/clt_v4/client.crt",
+    "client_key": "F:/hets/ssl-key/crt20251119/clt_v4/client.key",
+    "ca_cert": "F:/hets/ssl-key/crt20251119/ca.crt",
+    "hex_send": false,
+    "ssl_version": "TLS 1.0"
+  }
+}
